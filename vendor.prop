@@ -112,8 +112,7 @@ vendor.audio.feature.vbat.enable=false
 vendor.audio.feature.wsa.enable=false
 
 # Audio steps
-ro.config.media_vol_steps=30
-ro.config.vc_call_vol_steps=8
+ro.config.vc_call_vol_steps=11
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
