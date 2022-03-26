@@ -251,7 +251,6 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
 
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
