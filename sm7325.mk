@@ -278,7 +278,6 @@ PRODUCT_PACKAGES += \
 
 # Moto hardware
 PRODUCT_PACKAGES += \
-    MotoActions \
     MotoCommonOverlay
 
 # Neural Networks
