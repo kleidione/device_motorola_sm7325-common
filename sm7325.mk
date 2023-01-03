@@ -507,14 +507,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libnl \
-    libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
