@@ -44,6 +44,16 @@ PRODUCT_PACKAGES += \
 ifeq ($(TARGET_IS_VAB),true)
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+# Background dexopt OTA
+PRODUCT_VENDOR_PROPERTIES += \
+    pm.dexopt.ab-ota=speed-profile
+
+# Preopted ODEX files (system_other)
+PRODUCT_PACKAGES += \
+    cppreopts.sh
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cp_system_other_odex=1
 endif
 
 AB_OTA_POSTINSTALL_CONFIG += \
