@@ -159,6 +159,10 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
 
 # Display
 vendor.display.comp_mask=0
