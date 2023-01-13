@@ -1,0 +1,2 @@
+# OTA with encrypted
+allow system_server ota_package_file:dir getattr;
